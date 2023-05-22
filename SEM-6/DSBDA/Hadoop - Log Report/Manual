@@ -1,0 +1,12 @@
+Steps to execute - 
+1. Get hadoop and eclipse ide installed in your system.
+2. start hadoop using - start-all.sh 
+3. create a folder using - hadoop fs -mkdir /input
+4. create a input file to get word count from using - nano input.txt (ass few statements into the file)
+5. add input.txt into /input folder using - hadoop fs -put data.txt /input
+6. create a new project in Eclipse with JavaSE version same as the version you have used using hadoop installation
+7. Create a new class and paste the code from logDriver.java 
+8. Create a jar file 
+9. Execute the jar file using the command - hadoop jar <jar-file-name-with-location> <input-file-location> <output-file-location>
+10. Navigate to localhost:9870 where you will see the output-file name, open the part-0000 file inside it.
+It will have the result. 
