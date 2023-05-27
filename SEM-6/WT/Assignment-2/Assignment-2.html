@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* Internal CSS */
+header {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1 style="color: #333;">Welcome to Our Restaurant</h1>
+    <img src="logo.jpeg" alt="Restaurant Logo">
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div id="home" style="background-color: #f8f8f8; padding: 20px;">
+    <h2>About Our Restaurant</h2>
+    <p>Welcome to our restaurant! We pride ourselves on serving delicious meals made with the freshest ingredients.
+      Explore our menu and discover a variety of mouth-watering dishes.</p>
+  </div>
+
+  <div id="menu" style="background-color: #fff; padding: 20px;">
+    <h2>Our Menu</h2>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Spaghetti Bolognese</td>
+        <td>Classic Italian dish with homemade tomato sauce and ground beef.</td>
+        <td>$12.99</td>
+      </tr>
+      <tr>
+        <td>Grilled Salmon</td>
+        <td>Freshly grilled salmon served with seasonal vegetables.</td>
+        <td>$18.99</td>
+      </tr>
+      <!-- Add more menu items here -->
+    </table>
+  </div>
+
+  <div id="about" style="background-color: #f8f8f8; padding: 20px;">
+    <h2>About Us</h2>
+    <p>Our restaurant has been serving the community for over 10 years. We are committed to providing exceptional
+      dining experiences and ensuring customer satisfaction.</p>
+  </div>
+
+  <div id="contact" style="background-color: #fff; padding: 20px;">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

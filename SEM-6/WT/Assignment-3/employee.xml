@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="employees.xsd">
+
+  <employee>
+    <id>001</id>
+    <name>John Doe</name>
+    <position>Manager</position>
+    <department>Finance</department>
+    <salary>5000</salary>
+  </employee>
+
+  <employee>
+    <id>002</id>
+    <name>Jane Smith</name>
+    <position>Engineer</position>
+    <department>IT</department>
+    <salary>4000</salary>
+  </employee>
+
+  <!-- Add more employee records here -->
+
+</employees>
